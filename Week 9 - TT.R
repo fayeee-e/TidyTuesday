@@ -1,4 +1,5 @@
 library(tidyverse)
+library(tidytuesdayR)
 library(magrittr)
 library(glue)
 library(gganimate)
