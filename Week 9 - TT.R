@@ -3,6 +3,8 @@ library(magrittr)
 library(glue)
 library(gganimate)
 library(gifski)
+tuesdata <- tidytuesdayR::tt_load(2021, week = 9)
+earn <- tuesdata$earn
 en <- earn%>%
   filter (
     sex != "Both Sexes" &
